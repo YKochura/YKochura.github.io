@@ -1,0 +1,8 @@
+_site/
+.idea
+**.DS_*
+**Icon*
+**cache*
+pres/ml_resources
+pres/ai_resources
+**hidden*

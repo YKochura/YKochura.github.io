@@ -1,0 +1,72 @@
+<header>
+    {% include head.html %}
+    {% include navigation.html %}
+    {% include google_analytics.html %}
+    {% include js.html %}
+    <link href="{{ site.baseurl }}/assets/css/notes.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/highlight_androidstudio.css" rel="stylesheet">
+    <script src="{{ site.baseurl }}/assets/js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</header>
+
+<body data-spy="scroll" data-target=".sidebar">
+    <div class="wrapper">
+        <div class="sidenav navbar">
+            <div id="toc"></div>
+        </div>
+
+        <div class="main" style="margin-right: 15%;">
+            <div id="content" class="markdown">
+                <p class="title" style="font-size: 60px"> {{ page.title | downcase }} </p>
+                <div style="width:25px; display:inline-block; height:auto;"></div>
+                <a class="btn btn-success" style="float:left;   text-transform: lowercase;"
+                   href="https://github.com/csinva/csinva.github.io/blob/master/{{ page.path }}">view markdown <i class="fa fa-github fa-fw"></i></a>
+
+                <a class="btn btn-info" style="float:left;   text-transform: lowercase;"
+                   href="https://twitter.com/intent/tweet?url=http://csinva.github.io{{ page.url }}">tweet <i class="fa fa-twitter fa-fw"></i></a>
+                <br/>
+                <br/>
+                <hr>
+                {{ page.content | markdownify }}
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<style>
+.markdown p, li, ul{
+    font-size: large;
+}
+
+#markdown-toc{
+    display: none;
+}
+</style>
+
+<!--js-->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } });
+    MathJax.Hub.Config({
+        tex2jax: {
+         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+         processEscapes: true
+        }
+    });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
+
+<style>
+.highlight{
+    background-color: black;
+    border-color: black;
+}
+</style>
