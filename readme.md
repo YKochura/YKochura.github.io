@@ -9,7 +9,7 @@
   <br>
   <a href="_blog">posts</a> •
   <a href="#code">research links</a>  •
-  <a href="https://scholar.google.com/citations?hl=en&user=YucKNtAAAAAJ">personal info</a>
+  <a href="https://scholar.google.com/citations?hl=en&user=XpttKK8AAAAJ&view_op=list_works&sortby=pubdate">personal info</a>
   <br>
   <a href="https://twitter.com/chandan_singh96">@chandan_singh96</a>
 </p>
