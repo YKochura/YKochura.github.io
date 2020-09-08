@@ -1,5 +1,5 @@
 ---
-title: ml slides
+title: ML slides
 separator: '----'
 verticalSeparator: '---'
 highlightTheme: ir-black
@@ -9,12 +9,12 @@ revealOptions:
 	transitionSpeed: 'fast'
 ---
 
-<h1> machine learning </h1>
-*press esc to navigate slides*
+<h1> Machine Learning </h1>
+*Press Esc to navigate slides*
 
-**<a href="https://twitter.com/chandan_singh96">@chandan_singh96</a>**
+<!--**<a href="https://twitter.com/ykk">@yk_s</a>** -->
 
-[![](assets_files/GitHub-Mark-64px.png)](https://github.com/csinva/csinva.github.io/blob/master/_slides/ml_slides/slides.md)
+[![](assets_files/GitHub-Mark-64px.png)](https://github.com/YKochura/YKochura.github.io)
 
 
 
