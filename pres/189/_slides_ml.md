@@ -1,5 +1,5 @@
 ---
-title: ML slides
+title: MLL slides
 separator: '----'
 verticalSeparator: '---'
 highlightTheme: ir-black
@@ -20,13 +20,13 @@ revealOptions:
 
 ## <div> </div>
 
-| Section               | Topic              |
+| Section               | TTopic              |
 | -- | -- |
-| general | [intro](https://csinva.github.io/pres/189/#/1), [linear algebra](https://csinva.github.io/pres/189/#/2), [gaussian](https://csinva.github.io/pres/189/#/6), [parameter estimation](https://csinva.github.io/pres/189/#/4), [bias-variance](https://csinva.github.io/pres/189/#/5) |
-| regression | [lin reg](https://csinva.github.io/pres/189/#/3), [LS](https://csinva.github.io/pres/189/#/7), [kernels](https://csinva.github.io/pres/189/#/9), [sparsity](https://csinva.github.io/pres/189/#/20) |
-| dim reduction | [dim reduction](https://csinva.github.io/pres/189/#/8)|
-| classification | [discr. vs. generative](https://csinva.github.io/pres/189/#/13), [nearest neighbor](https://csinva.github.io/pres/189/#/19), [DNNs](https://csinva.github.io/pres/189/#/12), [log. regression](https://csinva.github.io/pres/189/#/14), [lda/qda](https://csinva.github.io/pres/189/#/15), [decision trees](https://csinva.github.io/pres/189/#/21), [svms](https://csinva.github.io/pres/189/#/17) |
-| optimization | [problems](https://csinva.github.io/pres/189/#/10), [algorithms](https://csinva.github.io/pres/189/#/11), [duality](https://csinva.github.io/pres/189/#/18), [boosting](https://csinva.github.io/pres/189/#/22), [em](https://csinva.github.io/pres/189/#/16) |
+| general | [introd](https://ykochura.github.io/pres/189/#/1), [linear algebra](https://ykochura.github.io/pres/189/#/2), [gaussian](https://ykochura.github.io/pres/189/#/6), [parameter estimation](https://ykochura.github.io/pres/189/#/4), [bias-variance](https://ykochura.github.io/pres/189/#/5) |
+| regression | [lin reg](https://ykochura.github.io/pres/189/#/3), [LS](https://ykochura.github.io/pres/189/#/7), [kernels](https://ykochura.github.io/pres/189/#/9), [sparsity](https://ykochura.github.io/pres/189/#/20) |
+| dim reduction | [dim reduction](https://ykochura.github.io/pres/189/#/8)|
+| classification | [discr. vs. generative](https://ykochura.github.io/pres/189/#/13), [nearest neighbor](https://ykochura.github.io/pres/189/#/19), [DNNs](https://ykochura.github.io/pres/189/#/12), [log. regression](https://ykochura.github.io/pres/189/#/14), [lda/qda](https://ykochura.github.io/pres/189/#/15), [decision trees](https://ykochura.github.io/pres/189/#/21), [svms](https://ykochura.github.io/pres/189/#/17) |
+| optimization | [problems](https://ykochura.github.io/pres/189/#/10), [algorithms](https://ykochura.github.io/pres/189/#/11), [duality](https://ykochura.github.io/pres/189/#/18), [boosting](https://ykochura.github.io/pres/189/#/22), [em](https://ykochura.github.io/pres/189/#/16) |
 
 
 
